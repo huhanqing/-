@@ -1,0 +1,101 @@
+.body {
+  position: relative;
+}
+
+/* 签证说明 */
+
+.tixianDetailBox {
+  float: left;
+  height: 100%;
+  width: 750rpx;
+}
+
+.tixianDetailUp {
+  width: 750rpx;
+  height: 30px;
+}
+
+.tixianDetailUp view {
+  float: left;
+  width: 187.5rpx;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 28rpx;
+  color: #6b6b6b;
+}
+
+.tixianDetailUp .active {
+  border-bottom: 2px solid #000;
+  color: #000;
+  font-weight: bold;
+}
+
+.tixianDetailDowm {
+  width: 750rpx;
+  height: 100%;
+  margin-bottom: 60px;
+}
+
+.tixianDetailDowm .orderView1 {
+  border-bottom: 2px solid #ccc;
+  height: 180px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.tixianDetailDowm .orderView2 view:last-child {
+  color: #666;
+}
+
+.tixianDetailDowm .orderView2, .orderView3, .orderView4 {
+  width: 90%;
+  height: 60px;
+  border-bottom: 1px solid #eee;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.tixianDetailDowm .orderView2 text:last-child {
+  float: right;
+  margin-top: 5px;
+}
+
+.tixianDetailDowm .orderView1 text {
+  font-size: 28rpx;
+}
+
+.tixianDetailDowm .orderView4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.tixianDetailDowm .orderView4 view {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tixianDetailDowm .orderView4 text {
+  font-size: 28rpx;
+}
+
+.tixianDetailDowm .orderView3 text {
+  font-size: 28rpx;
+}
+
+.tixianDetailDowm  .orderView1 image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 5px;
+  vertical-align: middle;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  padding: 1px;
+}
+
+.tixianDetailDowm  .orderView4 image {
+  border-radius: 0;
+  margin-top: 2px;
+}

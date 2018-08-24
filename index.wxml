@@ -1,0 +1,74 @@
+<view class="body">
+  <!--分销订单分类头部 -->
+  <view class="tixianDetailBox">
+    <view class="tixianDetailUp">
+      <view class="{{brr[0]}}" data-kk="0" bindtap="abc">所有</view>
+      <view class="{{brr[1]}}" data-kk="1" bindtap="abc">待付款</view>
+      <view class="{{brr[2]}}" data-kk="2" bindtap="abc">已付款</view>
+      <view class="{{brr[3]}}" data-kk="3" bindtap="abc">已完成</view>
+    </view>
+    <!-- 分销订单分类内容 -->
+    <view class="tixianDetailDowm">
+      <!-- 所有 -->
+      <view style="display:{{arr[0]}}" class="tixianWaitCheck">
+        <view class="orderView1">
+          <view class="orderView2">
+            <view>
+              <text>SH20180109103013726847</text>
+              <text>+0.00</text>
+            </view>
+            <view>
+              <text>2018-01-09</text>
+              <text>已完成</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 待付款 -->
+      <view style="display:{{arr[1]}}" class="tixianDakuan">
+        <view class="orderView1">
+          <view class="orderView2">
+            <view>
+              <text>SH20180109103013726847</text>
+              <text>+0.00</text>
+            </view>
+            <view>
+              <text>2018-01-09</text>
+              <text>待付款</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 已付款 -->
+      <view style="display:{{arr[2]}}" class="outDaKuan">
+        <view class="orderView1">
+          <view class="orderView2">
+            <view>
+              <text>SH20180109103013726847</text>
+              <text>+0.00</text>
+            </view>
+            <view>
+              <text>2018-01-09</text>
+              <text>已付款</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <!-- 与完成 -->
+      <view style="display:{{arr[3]}}" class="reject">
+        <view class="orderView1">
+          <view class="orderView2">
+            <view>
+              <text>SH20180109103013726847</text>
+              <text>+0.00</text>
+            </view>
+            <view>
+              <text>2018-01-09</text>
+              <text>已完成</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
